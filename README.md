@@ -30,3 +30,12 @@ timeout: 60s
 updateTime: '2017-09-14T11:31:36Z'
 versionId: '1'
 ```
+
+# Testing your google function
+```
+curl -X POST -H "Content-Type:application/json"  -d '{"message":"hello Ming!"}' https://us-central1-winter-wonder-647.cloudfunctions.net/helloWorld
+```
+or 
+```
+curl https://us-central1-winter-wonder-647.cloudfunctions.net/helloWorld
+```
